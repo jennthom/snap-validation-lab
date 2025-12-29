@@ -1,0 +1,3 @@
+[submodule "us-census-bureau-data-api-mcp"]
+	path = us-census-bureau-data-api-mcp
+	url = https://github.com/uscensusbureau/us-census-bureau-data-api-mcp
