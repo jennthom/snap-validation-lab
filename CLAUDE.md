@@ -193,7 +193,7 @@ The analysis demonstrates the MCP server's capability to:
 - Validate estimates against administrative data (SNAP QC) - example: MS state data
 - Identify error patterns (38.4% overall error rate in MS)
 - Show income verification as primary error source (73.3% for wage earners in MS)
-- Calculate participation gaps (36-49% eligible not receiving benefits in MS)
+- Understand retention challenges (administrative errors cause eligible families to cycle off benefits)
 
 These findings are **examples of what's possible**, not policy recommendations.
 

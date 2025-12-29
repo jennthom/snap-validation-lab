@@ -35,7 +35,7 @@ This project shows how to use the MCP server for:
 - **Earned income is primary error driver**: 73.3% error rate for wage earners vs 30.9% for non-wage earners
 - **Income complexity matters**: 77.8% error rate for households with 3+ income sources
 - **$29.4 million annual impact** in Mississippi alone
-- **Participation gaps**: 36-49% of eligible households not receiving benefits
+- **Retention challenge**: Administrative errors likely cause eligible working families to cycle off benefits
 
 See [`docs/notes.md`](docs/notes.md) for complete analysis.
 
@@ -153,7 +153,7 @@ python3 analysis/analyze_error_types.py
 1. Load SNAP QC microdata filtered for Mississippi (1,181 cases)
 2. Confirm 99.5% of participants are at ≤130% FPL (validates threshold)
 3. Compare participant demographics to Census estimates
-4. Identify participation gaps (eligible but not receiving)
+4. Analyze administrative errors that may cause eligible people to lose benefits
 
 ### Error Analysis (Mississippi)
 
@@ -164,20 +164,22 @@ python3 analysis/analyze_error_types.py
 
 ## Example Analysis Results
 
-### Error Patterns by Category
-1. **Income verification** - 73% error rate for wage earners
-2. **Deduction calculations** - Medical (72.7%), Shelter (50%)
-3. **Complex households** - 87.5% error rate for 7+ person households
+**Focus**: Understanding administrative errors that cause eligible people to lose benefits or receive incorrect amounts
 
-### Error Rates by Household Characteristics
-1. **Working families** - 73.3% error rate vs 30.9% for non-wage earners
-2. **Multiple income sources** - 77.8% error rate for 3+ sources
-3. **Families with children** - 48.9% error rate vs 31.1% without
+### Retention Risk: High Error Rates by Category
+1. **Income verification** - 73% error rate for wage earners (likely causes recertification failures)
+2. **Deduction calculations** - Medical (72.7%), Shelter (50%) (incorrect benefit amounts)
+3. **Complex households** - 87.5% error rate for 7+ person households (administrative burden)
 
-### Lower Error Rates Observed
-1. **Zero-income households** - 5.9% error rate
-2. **Single-person households** - 29.8% error rate
-3. **Very poor households** (<50% poverty) - 19.5% error rate
+### Households at Risk of Administrative Churn
+1. **Working families** - 73.3% error rate vs 30.9% for non-wage earners (wage documentation issues)
+2. **Multiple income sources** - 77.8% error rate for 3+ sources (complexity causes errors → termination)
+3. **Families with children** - 48.9% error rate vs 31.1% without (higher stakes, more volatility)
+
+### Households Successfully Retained (Lower Error Rates)
+1. **Zero-income households** - 5.9% error rate (simple verification)
+2. **Single-person households** - 29.8% error rate (less complexity)
+3. **Very poor households** (<50% poverty) - 19.5% error rate (stable eligibility)
 
 ## Documentation
 

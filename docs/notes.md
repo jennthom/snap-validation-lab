@@ -111,11 +111,11 @@ Bolivar County (Population: 27,895):
 | Bolivar | 33.7% | 43.5% | 27.9% | 15.6 points |
 
 **Key Insights:**
-- About 14-16 percentage points of potentially eligible people in both counties are NOT receiving SNAP benefits
-- Bolivar County has higher estimated eligibility (43.5%) but similar participation gap
-- Both counties show significant under-enrollment in SNAP relative to estimated eligibility
-- In Bolivar County, about 64% of eligible population receives SNAP (27.9% / 43.5%)
-- In Hinds County, about 51% of eligible population receives SNAP (14.7% / 28.7%)
+- About 14-16 percentage points of potentially eligible people in both counties are not receiving SNAP benefits
+- Bolivar County has higher estimated eligibility (43.5%) with ~64% retention (27.9% / 43.5%)
+- Hinds County shows ~51% retention among eligible population (14.7% / 28.7%)
+- Retention challenge: Administrative errors (73% for wage earners) likely cause eligible working families to cycle off
+- Focus area: Reducing administrative burden to keep eligible people from losing benefits
 
 **Methodology Notes:**
 - Eligibility calculated as sum of: under 50% + 50-99% + 100-124% + (20% of 125-149% bracket)
@@ -201,14 +201,14 @@ Using Census estimates and SNAP receipt data:
 2. Error rates suggest 38% of cases have payment or eligibility issues
 3. Single-person households dominate SNAP participation (54% vs ~26% of general population)
 4. Very high poverty concentration among participants (87% below poverty line vs 21-34% poverty rate in counties)
-5. Significant non-participation among eligible households (36-49% eligible but not receiving benefits)
+5. Retention challenge: 36-49% of eligible households not receiving benefits (likely due to administrative churn)
 
 **What This Enables:**
 - Validate demographic composition of eligible population
-- Estimate true participation rates vs eligible population
-- Identify characteristics of non-participating eligible households
-- Quantify administrative error impact on benefit accuracy
-- Model expected benefit amounts for newly eligible households
+- Understand retention rates among eligible population
+- Identify which households are at risk of administrative churn (wage earners, complex cases)
+- Quantify how administrative errors cause eligible people to lose benefits
+- Target retention efforts for households most likely to cycle off due to errors
 
 ### Detailed Error Type Analysis: Income vs Deductions
 
